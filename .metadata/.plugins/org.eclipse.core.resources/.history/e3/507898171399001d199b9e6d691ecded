@@ -1,0 +1,5 @@
+package spring.usuarios.app.model.service;
+
+public interface IUploadService {
+
+}

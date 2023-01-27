@@ -1,0 +1,66 @@
+INSERT INTO regiones (id, nombre) VALUES (1, 'Sudamérica');
+INSERT INTO regiones (id, nombre) VALUES (2, 'Centroamérica');
+INSERT INTO regiones (id, nombre) VALUES (3, 'Norteamérica');
+INSERT INTO regiones (id, nombre) VALUES (4, 'Europa');
+INSERT INTO regiones (id, nombre) VALUES (5, 'África');
+INSERT INTO regiones (id, nombre) VALUES (6, 'Asia');
+INSERT INTO regiones (id, nombre) VALUES (7, 'Oceanía');
+INSERT INTO regiones (id, nombre) VALUES (8, 'Antártida');
+
+
+INSERT INTO paises (id, nombre) VALUES (1, 'EEUU');
+INSERT INTO paises (id, nombre) VALUES (2, 'Canada');
+INSERT INTO paises (id, nombre) VALUES (3, 'Mexico');
+INSERT INTO paises (id, nombre) VALUES (4, 'Uruguay');
+INSERT INTO paises (id, nombre) VALUES (5, 'Argentina');
+INSERT INTO paises (id, nombre) VALUES (6, 'Qatar');
+INSERT INTO paises (id, nombre) VALUES (7, 'Iceland');
+
+
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (2, 1,'ASJHAS','AKSJHD','HasASG@KDJFH.COM','1231234', 18,'2018-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 2,'ZIZU','SDS','A@KDJFH.COM','642234', 20,'2019-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (1, 3,'OWR','ZXC','ADS@KDJFH.COM','73845643', 30,'2015-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'ZXCX','WQE','DF@KDJFH.COM','17253176', 25,'2016-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (8, 7,'MKO','RTY','XC@KDJFH.COM','98760456', 17,'2012-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (7, 7,'NMBFFS','QQW','WER@KDJFH.COM','2738472', 24,'2018-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (5, 6,'QUTW','ZXC','XCV@KDJFH.COM','237486', 26,'2018-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 5,'WMNWM','ERT','XCVj@KDJFH.COM','38749590', 19,'2021-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (6, 3,'ZOCXIU','ZXC','XCAV@KDJFH.COM','376453', 16,'2022-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'AHSKJ','TYU','HASDASG@KDJFH.COM','273682', 15,'2010-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (2, 6,'MAASD','QW','QEEEW@KDJFH.COM','294862', 14,'2011-01-01');
+
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (2, 1,'ASJHAS','AKSJHD','HasASG@KDJFH.COM','1231234', 18,'2018-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 2,'ZIZU','SDS','A@KDJFH.COM','642234', 20,'2019-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (1, 3,'OWR','ZXC','ADS@KDJFH.COM','73845643', 30,'2015-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'ZXCX','WQE','DF@KDJFH.COM','17253176', 25,'2016-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (8, 7,'MKO','RTY','XC@KDJFH.COM','98760456', 17,'2012-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (7, 7,'NMBFFS','QQW','WER@KDJFH.COM','2738472', 24,'2018-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (5, 6,'QUTW','ZXC','XCV@KDJFH.COM','237486', 26,'2018-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 5,'WMNWM','ERT','XCVj@KDJFH.COM','38749590', 19,'2021-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (6, 3,'ZOCXIU','ZXC','XCAV@KDJFH.COM','376453', 16,'2022-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'AHSKJ','TYU','HASDASG@KDJFH.COM','273682', 15,'2010-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (2, 6,'MAASD','QW','QEEEW@KDJFH.COM','294862', 14,'2011-01-01');
+
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (2, 1,'ASJHAS','AKSJHD','HasASG@KDJFH.COM','1231234', 18,'2018-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 2,'ZIZU','SDS','A@KDJFH.COM','642234', 20,'2019-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (1, 3,'OWR','ZXC','ADS@KDJFH.COM','73845643', 30,'2015-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'ZXCX','WQE','DF@KDJFH.COM','17253176', 25,'2016-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (8, 7,'MKO','RTY','XC@KDJFH.COM','98760456', 17,'2012-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (7, 7,'NMBFFS','QQW','WER@KDJFH.COM','2738472', 24,'2018-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (5, 6,'QUTW','ZXC','XCV@KDJFH.COM','237486', 26,'2018-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 5,'WMNWM','ERT','XCVj@KDJFH.COM','38749590', 19,'2021-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (6, 3,'ZOCXIU','ZXC','XCAV@KDJFH.COM','376453', 16,'2022-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'AHSKJ','TYU','HASDASG@KDJFH.COM','273682', 15,'2010-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (2, 6,'MAASD','QW','QEEEW@KDJFH.COM','294862', 14,'2011-01-01');
+
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (2, 1,'ASJHAS','AKSJHD','HasASG@KDJFH.COM','1231234', 18,'2018-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 2,'ZIZU','SDS','A@KDJFH.COM','642234', 20,'2019-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (1, 3,'OWR','ZXC','ADS@KDJFH.COM','73845643', 30,'2015-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'ZXCX','WQE','DF@KDJFH.COM','17253176', 25,'2016-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (8, 7,'MKO','RTY','XC@KDJFH.COM','98760456', 17,'2012-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (7, 7,'NMBFFS','QQW','WER@KDJFH.COM','2738472', 24,'2018-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (5, 6,'QUTW','ZXC','XCV@KDJFH.COM','237486', 26,'2018-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 5,'WMNWM','ERT','XCVj@KDJFH.COM','38749590', 19,'2021-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (6, 3,'ZOCXIU','ZXC','XCAV@KDJFH.COM','376453', 16,'2022-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'AHSKJ','TYU','HASDASG@KDJFH.COM','273682', 15,'2010-01-01');
+INSERT INTO usuarios (region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (2, 6,'MAASD','QW','QEEEW@KDJFH.COM','294862', 14,'2011-01-01');

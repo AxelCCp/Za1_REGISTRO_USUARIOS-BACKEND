@@ -1,0 +1,77 @@
+package spring.usuarios.app.model.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import spring.usuarios.app.model.dao.IUsuarioDao;
+import spring.usuarios.app.model.entity.Pais;
+import spring.usuarios.app.model.entity.Region;
+import spring.usuarios.app.model.entity.Usuario;
+
+
+@Service
+public class UsuarioServiceImpl implements IUsuarioService{
+
+	@Override
+	@Transactional(readOnly = true)
+	public List<Usuario> listaUsuarios() {
+		// TODO Auto-generated method stub
+		return usuarioDao.findAll();
+	}
+	
+	@Override
+	public Page<Usuario> findAll(Pageable pageable) {
+		// TODO Auto-generated method stub
+		return usuarioDao.findAll(pageable);
+	}
+
+	@Override
+	@Transactional(readOnly = true)
+	public Usuario usuarioPorId(Long id) {
+		// TODO Auto-generated method stub
+		return usuarioDao.findById(id).orElse(null);
+	}
+	
+	@Override
+	@Transactional
+	public Usuario guardar(Usuario usuario) {
+		// TODO Auto-generated method stub
+		usuarioDao.save(usuario);
+		return usuario;
+	}
+
+	@Override
+	@Transactional
+	public void eliminarPorId(Long id) {
+		// TODO Auto-generated method stub
+		usuarioDao.deleteById(id);
+	}
+	
+	@Override
+	public List<Region> findAllRegiones() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Pais> findAllPaises() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	@Autowired
+	private IUsuarioDao usuarioDao;
+
+	
+	
+
+
+	
+
+}
