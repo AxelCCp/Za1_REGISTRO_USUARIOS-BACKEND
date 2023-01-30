@@ -2,6 +2,7 @@ package spring.usuarios.app.controller;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -171,6 +172,7 @@ public class UsuarioController {
 	public List<Region>listarRegiones(){
 		return usuarioService.findAllRegiones();
 	}
+		
 	
 	@GetMapping("/user/paises")
 	public List<Pais>listarPaises(){

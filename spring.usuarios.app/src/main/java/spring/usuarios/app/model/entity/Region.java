@@ -27,6 +27,7 @@ public class Region implements Serializable{
 		this.nombre = nombre;
 	}
 	
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
