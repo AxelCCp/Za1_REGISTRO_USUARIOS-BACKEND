@@ -17,12 +17,11 @@ INSERT INTO paises(id, nombre) VALUES (6, 'Qatar');
 INSERT INTO paises(id, nombre) VALUES (7, 'Iceland');
 
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (2, 1,'Captain','Commando','Captain@Commando.COM','1231234', 35,'2018-01-01');
-INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 2,'Lilith','Hell','Lilith@Hell.COM','642234', 200,'2019-01-01');
+INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 2,'Hell','Boy','Hell@boy.COM','642234', 200,'2019-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (1, 3,'Norimaro','nn','Norimaro@nnn.COM','73845643', 60,'2015-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'Akuma','rr','Akuma@rr.COM','17253176', 250,'2016-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (8, 7,'Wolverine','X','Wolverine@X.COM','98760456', 90,'2012-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (7, 7,'Ciclope','X','Ciclope@X.COM','2738472', 37,'2018-01-01');
-INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (5, 6,'Jean','Grey','Jean@Grey.COM','237486', 35,'2018-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 5,'Namor','X','Namorj@x.COM','38749590', 25,'2021-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (6, 3,'ZOCXIU','ZXC','XCAV@KDJFH.COM','376453', 16,'2022-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'AHSKJ','TYU','HASDASG@KDJFH.COM','273682', 15,'2010-01-01');
@@ -42,10 +41,10 @@ INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, 
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 2,'ZIZU','SDS','2A@KDJFH.COM','622425234', 20,'2019-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (1, 3,'OWR','ZXC','2ADS@KDJFH.COM','7386245643', 30,'2015-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'ZXCX','WQE','2DF@KDJFH.COM','172563176', 25,'2016-01-01');
-INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (8, 7,'MKO','RTY','X2C@KDJFH.COM','987606456', 17,'2012-01-01');
+INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (8, 7,'MKO','RTY','X2999C@KDJFH.COM','987606456', 17,'2012-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (7, 7,'NMBFFS','QQW','2WER@KDJFH.COM','27738472', 24,'2018-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (5, 6,'QUTW','ZXC','X22CV@KDJFH.COM','23778486', 26,'2018-01-01');
-INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 5,'WMNWM','ERT','X2CVj@KDJFH.COM','387449590', 19,'2021-01-01');
+INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 5,'WMNWM','ERT','X2CyyyVj@KDJFH.COM','387449590', 19,'2021-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (6, 3,'ZOCXIU','ZXC','2XCAV@KDJFH.COM','3736453', 16,'2022-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'AHSKJ','TYU','H2ASDASG@KDJFH.COM','2273682', 15,'2010-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (2, 6,'MAASD','QW','QE2EEW@KDJFH.COM','2948362', 14,'2011-01-01');
@@ -55,8 +54,8 @@ INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, 
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'ZXCX','WQE','D2F@KDJFH.COM','172531760', 25,'2016-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (8, 7,'MKO','RTY','X2C@KDJFH.COM','987600456', 17,'2012-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (7, 7,'NMBFFS','QQW','W2ER@KDJFH.COM','27038472', 24,'2018-01-01');
-INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (5, 6,'QUTW','ZXC','XC2V@KDJFH.COM','2374086', 26,'2018-01-01');
-INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 5,'WMNWM','ERT','X2CVj@KDJFH.COM','380749590', 19,'2021-01-01');
+INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (5, 6,'QUTW','ZXC','XC2vvvV@KDJFH.COM','2374086', 26,'2018-01-01');
+INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (3, 5,'WMNWM','ERT','X2CVj@KDyyyyJFH.COM','380749590', 19,'2021-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (6, 3,'ZOCXIU','ZXC','X2CAV@KDJFH.COM','3076453', 16,'2022-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (4, 7,'AHSKJ','TYU','HA2SDASG@KDJFH.COM','2703682', 15,'2010-01-01');
 INSERT INTO usuarios(region_id, pais_id, nombre, apellido, email, number, edad, create_at) VALUES (2, 6,'MAASD','QW','QEE2EW@KDJFH.COM','2904862', 14,'2011-01-01');
